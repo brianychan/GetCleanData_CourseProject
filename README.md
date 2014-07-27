@@ -10,20 +10,22 @@ the end product of a tidy dataset.
 1. Download the UCI HAR Dataset
 2. Unzip the dataset
 3. Load data
-    a. Training data
-        - Subjects: 'subject_train.txt'
-        - Measurements: 'X_train.txt'
-        - Activity: 'Y_train.txt'
-    b. Test data
-        - Subjects: 'subject_test.txt'
-        - Measurements: 'X_test.txt'
-        - Activity: 'Y_test.txt'
-    c. Features data: 'features.txt'
-    d. Activity Labels data: 'activity_labels.txt'
-5. Combine training data into one dataframe using cbind
-6. Combine test data into one dataframe using cbind
-7. Combine all data using rbind
-8. Name all columns based on Features data
-9. Subset just Mean and StDev measurement columns
+
+>    a. Training data
+>        - Subjects: 'subject_train.txt'
+>        - Measurements: 'X_train.txt'
+>        - Activity: 'Y_train.txt'
+>    b. Test data
+>        - Subjects: 'subject_test.txt'
+>        - Measurements: 'X_test.txt'
+>        - Activity: 'Y_test.txt'
+>    c. Features data: 'features.txt'
+>    d. Activity Labels data: 'activity_labels.txt'
+
+4. Combine training data into one dataframe using cbind
+5. Combine test data into one dataframe using cbind
+6. Combine all data using rbind
+7. Name all columns based on Features data
+8. Subset just Mean and StDev measurement columns
 
 
